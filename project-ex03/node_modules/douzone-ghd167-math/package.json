@@ -1,0 +1,12 @@
+{
+  "name": "douzone-ghd167-math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "douzone-ghd167-math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
