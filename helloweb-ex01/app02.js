@@ -11,7 +11,7 @@ const server = http.createServer(function(req, resp) {
 
    fs.readFile(`${__dirname}/public${req.url}`, function(error, data){ // callback 앞에는 error , 뒤에는 data
         resp.writeHead(200, {
-            'Content-Type': 'tet/html'
+            'Content-Type': 'text/html'
         });
         resp.end(data);
    });
