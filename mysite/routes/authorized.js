@@ -6,7 +6,7 @@ module.exports = function(role) {
         }
 
         if(req.accepts('html')) {
-            res.redirect('/user/login');
+            res.redirect(req.session.authUer ? '/' : '/user/login');
             return;
         }
 
